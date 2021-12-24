@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+}
+.peregorodka {
+    width: 1px;
+    height: 40px;
+    background-color: grey;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+h3 {
+    text-align: center;
+}
+
+.languaches {
+    width: 70px;
+    height: 50px;
+}
+.POLO {
+    width: 123px;
+    height: 50px;
+}
+.icon {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+}
+.number {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+}
+.block_1 {
+    width: 237px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+}
+.cut_1 {
+    width: 70%;
+    height: 56px;
+    background-color: #EFF3F6;
+    margin-left: 10px;
+}
+.cut_1 h4 {
+    text-align: center;
+    padding-top: 20px;
+}
+.cut_2 {
+    width: 30%;
+    height: 56px;
+    background-color: red;
+}
+.cut_2 i {
+    margin: 10px 18px;
+    color: white;
+}
+.block_2 {
+    width: 237px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+}
+.cut_3 h4 {
+    text-align: center;
+    padding-top: 20px;
+}
+.cut_3 {
+    width: 70%;
+    height: 56px;
+    background-color: #EFF3F6;
+    margin-left: 10px;
+}
+.cut_4 {
+    width: 30%;
+    height: 56px;
+    background-color: #4AD295;
+}
+.cut_4 i {
+    margin: 10px 18px;
+    color: white;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.vpice {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+}
+.three ul {
+    background: #ffffff;
+  }
+  .three ul a {
+    color: #000000;
+  }
+  .three .submenu {
+    visibility: hidden;
+    opacity: 0;
+    background: #ffffff;
+  }
+  .three ul li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Lora);
+body {margin:0;}
+h2 {
+  font-family: monospace;
+  color: #ffffff;
+}
+nav {
+  width: 100%;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+.fa {
+  font-family: "FontAwesome";
+  color: inherit;
+  padding-left: 10px;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.topmenu {
+    display: flex;
+    justify-content: space-around;
+}
+.semi-transparent-button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; 
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+}
+.container {
+    width: 100%;
+    height: 500px;
+    background:url(./baner.png)no-repeat center center;
+    color: #fff; 
+    background-size: cover;
+    position: relative;
+}
+   button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: white;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    position: absolute;
+    left: 160px;
+    top: 123px;
+}
+.container h1 {
+position: absolute;
+font-size: 50px;
+left: 163px;
+top: 193px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 55px;
+
+text-transform: uppercase;
+
+color: #000000;
+}
+.gradient {
+    position: absolute;
+width: 270px;
+height: 60px;
+left: 176px;
+top: 317px;
+
+background: rgba(255, 255, 255, 0.25);
+border-radius: 2px;
+font-size: xx-large;
+text-align: center;
+}
+.down {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin-top: 20px;
+}
+.box_2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+}
+.lipol {
+    width: 600px;
+    height: 1px;
+    background-color: grey;
+}
+.good {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+}
+.box_3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+  padding:0 30px;
+
+    width: 300px;
+}
+.box_3 img{
+ width: 300px;
+ height: 200px;
+}
+.text {
+    width: 260px;
+    background-color:#F8F8F8;
+    padding: 20px;
+    
+}
+.text h2 {
+    color: black;
+}
+.text p {
+    margin-top: 10px;
+}
+.peregorodca_2 {
+    width: 280px;
+    height: 1px;
+    background-color: grey;
+}
+.text h1 {
+    color: red;
+}
+.ot {
+    color: red;
+    margin-top: 10px;
+}
+.header_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box_4 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+    align-items: center;
+    background: url(
+        ./GettyImage.png
+    )no-repeat center center;
+    background-size: cover;
+}
+.box_4 h1 {
+    position: absolute;
+    top: 93px;
+    left: 270px;
+    font-size: 50px;
+    color: white;
+}
+.me_1 {
+    width: 1180px;
+height: 325px;
+background: #ffffff;
+position: absolute;
+display: flex;
+flex-direction: row;
+top: 211px;
+left: 270px;
+}
+.me_2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.me_3 {
+    width: 10%;
+}
+.cryg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px dashed gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.text_2 {
+  margin-top: 30px;
+}
+.me_4 {
+    width: 10%;
+}
+.me_5 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.box_5 {
+    width: 100%;
+    background: url(./SloveniaHeader\ 3.png) no-repeat center center;
+    height: 200px;
+  margin-top: 240px;
+  background-size: cover;
+  position: relative;
+ display: flex;
+ flex-direction: column;
+}
+
+.now_1 img {
+    position: absolute;
+    top: 50px;
+    left: 45px;
+}
+.now_1 {
+    width: 20%;
+    height: 150px;
+}
+.now_2 {
+    width: 20%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.now_3 {
+    width: 20%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.now_4 {
+    width: 20%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.now_5 {
+    width: 20%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.lol {
+    margin-top: 10px;
+}
+.ho {
+    width: 100%;
+    height: 50px;
+    position: relative;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.now {
+    display: flex;
+    flex-direction: row;
+}
+.lol_1 {
+    margin-top: 35px;
+}
+.ho_1 {
+    width: 30%;
+    height: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.ho_2 {
+    width: 70%;
+}
+@media screen and  (max-width: 455px) {
+    .box {
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .container h1 {
+        font-size: 18px;
+        left: 0px;
+        top: 193px;
+        width: 70%;
+    }
+    .gradient {
+        left: 0px;
+    }
+    button {
+        left: 0px;
+    }
+    .vpice{
+        display: none; 
+    }
+    .header {
+        display: none;
+    }
+    .lipol, .good {
+        display: none;
+    }
+    .header_1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .me_1 {
+        width: 100%;
+        flex-direction: column;
+    top: 0px;
+    left: 0px;
+    }
+    .me_3, .me_4 {
+        display: none;
+    }
+    .me_2, .me_5 {
+        width: 100%;
+    }
+    .now {
+        display: none;
+    }
+    .box_4 {
+        height: 600px;
+        width: 100%;
+    }
+    .box_5 {
+        height: 50px;
+        width: 100%;
+    }
+    .box_4 h1 {
+        display: none;
+    }
+
+}
